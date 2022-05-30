@@ -1,0 +1,42 @@
+.auth__container
+{
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    background-color: rgb(54, 56, 63);
+    gap: 10px;
+    padding: 1rem;
+}
+
+.auth__container button
+{
+    background-color: rgb(173, 233, 173);
+    outline: 0;
+    border: 0;
+    padding: 10px 40px;
+    border-radius: 5px;
+    width: min-content;
+    font-weight: 700;
+}
+
+.input__container label {
+    padding: 10px;
+    background-color: rgb(106, 118, 235);
+    border-radius: 10px 0 0 10px;
+}
+
+.input__container {
+    display: flex;
+    border-radius: 10px;
+}
+
+.input__container input {
+    color: black;
+    padding-left: 5px;
+    border: 0;
+    outline: none;
+    border-radius: 0 10px 10px 0;
+    width: 100%;
+}
